@@ -1,18 +1,49 @@
 export default function Home() {
     return (
-        <div className="bg-green-200 h-screen flex items-center justify-start px-12">
-            {/* Heading Bar */}
-                <img src="https://i.pinimg.com/736x/1e/a1/ac/1ea1ac0416f6fe8ebcfd6bb0fbae76c9.jpg"
-                     className="w-40 h-40 rounded-full object-cover"
+        <div className="bg-amber-100">
+            {/* Header */}
+            <div className="bg-green-200 flex text-center justify-start">
+                <img 
+                     src="https://i.pinimg.com/736x/1e/a1/ac/1ea1ac0416f6fe8ebcfd6bb0fbae76c9.jpg"
+                     className="w-40 h-40 rounded-full object-cover mx-auto"
                      alt="Bakery"
                 />
                 <div className="ml-6">
-                    <h1 className="text-5xl text-black">SIGMA BAKERY</h1>
-                    <h2 className="text-xl  text-black">Homemade Cake</h2>
+                    <h1 className="text-5xl text-black mt-10 mr-30">SIGMA BAKERY</h1>
+                    <h2 className="text-xl text-black mr-30">Homemade Cake</h2>
                 </div>
             </div>
+
+            {/* Main Content */}
+            <div className="bg-amber-50 p-12">
+                <div className="bg-orange-100 rounded-2xl mx-auto">
+                <h2 className="text-3xl text-black text-center mb-4">About Me</h2>
+                <h3 className="text-black text-center mb-8">Selamat datang di SIGMA BAKERY! Kami adalah toko kue rumahan yang menyediakan berbagai macam kue lezat. Di sini, setiap harinya kue dibuat dengan menggunakan bahan-bahan terbaik. Karema tidak ada yang lebih memuaskan dari melihat pelanggan yang tersenyum puas setelah menikmati kue buatan kami</h3>
+            </div>    
+                <h2 className="text-3xl text-black text-center mb-6">Our Menu</h2>
+                <img 
+                     src="https://i.pinimg.com/1200x/00/20/89/002089eec1463a41e3c93fbdb12bf56d.jpg"
+                     className="w-40 h-40 rounded-full object-cover mx-auto "
+                />
+                <div className="flex object-center">
+                <img 
+                     src="https://i.pinimg.com/736x/ac/89/e6/ac89e6c0e79023b2e0684901d1992ee9.jpg"
+                     className="w-40 h-40 rounded-full object-cover mx-auto"
+                />
+                <img 
+                     src="https://i.pinimg.com/736x/8c/1e/7b/8c1e7b3f0a5f0e2e2f6f0e4f4d6e6e7c.jpg"
+                     className="w-40 h-40 rounded-full object-cover mx-auto"
+                />
+                <img 
+                     src="https://i.pinimg.com/1200x/01/8a/43/018a4362d14d1dd33771ed0c1af60d0c.jpg"
+                     className="w-40 h-40 rounded-full object-cover mx-auto"
+                />
+                </div>
+            </div>
+        </div>
     )
 }
+
 
 // export default function page() {
 //   return (
