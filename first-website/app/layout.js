@@ -1,12 +1,12 @@
-import { Geist, Geist_Mono, Kapakana } from "next/font/google";
+import { Geist, Geist_Mono, Inter } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Kapakana({
+const geistSans = Inter({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Kapakana({
+const geistMono = Inter({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
